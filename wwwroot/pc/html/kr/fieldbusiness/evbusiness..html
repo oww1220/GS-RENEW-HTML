@@ -21,13 +21,13 @@
     <script src="../../../common/script/Common.js"></script>
     <script src="../../../common/script/KrMenu.js"></script>
     <script src="../../../common/script/FormValidation.js"></script>
-
-    
+    <script src="../include_header.js"></script>
+    <script src="../include_footer.js"></script>
 
 </head>
 <body>
 
-    <header></header>
+    <header class="header"></header>
 
     <main class="l-main">
         <div class="c-subvisual">
@@ -47,13 +47,13 @@
                             </span>
                         </a>
                     </li>
-                <li class="m-breadcrumb__item"><div class="cells m-breadcrumb__cells"><div class="m-select__wrap"><div class="m-select__view"><span class="m-select__label">사업분야</span><i class="m-icon m-icon__select"></i></div><div class="m-select__view-list"><ul class="m-select__view-list__wrap"><li class="m-select__view-list__item" data-index="0" value="/kr/business/index.aspx">기업정보</li><li class="m-select__view-list__item" data-index="1" value="/kr/fieldbusiness/index.aspx">사업분야</li><li class="m-select__view-list__item" data-index="2" value="/kr/irinfo/index.aspx">투자정보</li><li class="m-select__view-list__item" data-index="3" value="/kr/companynews/index.aspx">회사소식</li><li class="m-select__view-list__item" data-index="4" value="/kr/recruit/talentvision.aspx">채용정보</li></ul></div></div></div></li><li class="m-breadcrumb__item"><div class="cells m-breadcrumb__cells"><div class="m-select__wrap"><div class="m-select__view"><span class="m-select__label">Operation</span><i class="m-icon m-icon__select"></i></div><div class="m-select__view-list"><ul class="m-select__view-list__wrap"><li class="m-select__view-list__item" data-index="0" value="/kr/fieldbusiness/trading/steel.aspx">Trading</li><li class="m-select__view-list__item" data-index="1" value="/kr/fieldbusiness/operation/logistics.aspx">Operation</li><li class="m-select__view-list__item" data-index="2" value="/kr/fieldbusiness/investment/socbusiness.aspx">Investment</li></ul></div></div></div></li><li class="m-breadcrumb__item m-breadcrumb__item-last"><div class="cells m-breadcrumb__cells"><div class="m-select__wrap"><div class="m-select__view"><span class="m-select__label">Robotics</span><i class="m-icon m-icon__select"></i></div><div class="m-select__view-list"><ul class="m-select__view-list__wrap"><li class="m-select__view-list__item" data-index="0" value="/kr/fieldbusiness/operation/logistics.aspx">물류사업</li><li class="m-select__view-list__item" data-index="1" value="/kr/fieldbusiness/operation/gsentec.aspx">GS엔텍</li><li class="m-select__view-list__item" data-index="2" value="/kr/fieldbusiness/operation/robotics.aspx">Robotics</li><li class="m-select__view-list__item" data-index="3" value="/kr/fieldbusiness/operation/evbusiness.aspx">e모빌리티</li></ul></div></div></div></li></ul>
+                <li class="m-breadcrumb__item"><div class="cells m-breadcrumb__cells"><div class="m-select__wrap"><div class="m-select__view"><span class="m-select__label">사업분야</span><i class="m-icon m-icon__select"></i></div><div class="m-select__view-list"><ul class="m-select__view-list__wrap"><li class="m-select__view-list__item" data-index="0" value="/kr/business/index.aspx">기업정보</li><li class="m-select__view-list__item" data-index="1" value="/kr/fieldbusiness/index.aspx">사업분야</li><li class="m-select__view-list__item" data-index="2" value="/kr/irinfo/index.aspx">투자정보</li><li class="m-select__view-list__item" data-index="3" value="/kr/companynews/index.aspx">회사소식</li><li class="m-select__view-list__item" data-index="4" value="/kr/recruit/talentvision.aspx">채용정보</li></ul></div></div></div></li><li class="m-breadcrumb__item"><div class="cells m-breadcrumb__cells"><div class="m-select__wrap"><div class="m-select__view"><span class="m-select__label">Operation</span><i class="m-icon m-icon__select"></i></div><div class="m-select__view-list"><ul class="m-select__view-list__wrap"><li class="m-select__view-list__item" data-index="0" value="/kr/fieldbusiness/trading/steel.aspx">Trading</li><li class="m-select__view-list__item" data-index="1" value="/kr/fieldbusiness/operation/logistics.aspx">Operation</li><li class="m-select__view-list__item" data-index="2" value="/kr/fieldbusiness/investment/socbusiness.aspx">Investment</li></ul></div></div></div></li><li class="m-breadcrumb__item m-breadcrumb__item-last"><div class="cells m-breadcrumb__cells"><div class="m-select__wrap"><div class="m-select__view"><span class="m-select__label">e모빌리티</span><i class="m-icon m-icon__select"></i></div><div class="m-select__view-list"><ul class="m-select__view-list__wrap"><li class="m-select__view-list__item" data-index="0" value="/kr/fieldbusiness/operation/logistics.aspx">물류사업</li><li class="m-select__view-list__item" data-index="1" value="/kr/fieldbusiness/operation/gsentec.aspx">GS엔텍</li><li class="m-select__view-list__item" data-index="2" value="/kr/fieldbusiness/operation/robotics.aspx">Robotics</li><li class="m-select__view-list__item" data-index="3" value="/kr/fieldbusiness/operation/evbusiness.aspx">e모빌리티</li></ul></div></div></div></li></ul>
             </nav>
         </div>
         <div class="l-content socBusiness">
             <div class="l-content__wrap l-content__wrap-tight">
                  <h3 class="m-title__list m-title__style-default">
-                    <span class="m-title__style-text">Robotics</span>
+                    <span class="m-title__style-text">e모빌리티</span>
                 </h3>
                 <!-- <div class="m-tab">
                     <div class="m-tab__list">
@@ -69,17 +69,22 @@
                 </div> -->
                 <div class="m-subtab__body-wrap">
                     <div class="l-content__sub-wrap">
+                        <div class="o-img-wrap">
+                            <img src="/common/img/field-business/operation/ev_business_01.jpg">
+                        </div>
                         <div class="m-title__list m-title__sub-title o-pointcolor-03">
-                            <span class="m-title__style-text">GS글로벌은 새로운 산업장비를 활용한 로봇 플랫폼 솔루션을 제공하고 있습니다.</span>
+                            <span class="m-title__style-text">GS글로벌은 전기자동차 글로벌 제조 기업 BYD의 국내 사업파트너로서 <br>e모빌리티 사업을 전개하고 있습니다.</span>
                         </div>
                         <div class="m-define-wrap m-define-wrap__typeB m-define-wrap__line">
                             <dl class="m-define__list">
                                 <dt class="m-define__tit">사업개요</dt>
+                                
                                 <dd class="m-define__desc">
-                                    GS글로벌은 협동로봇(Collaborative Robot, Cobot), 물류로봇, 그리퍼(Gripper), 비전(Vision) 등과 같은 새로운 산업장비를 활용한 솔루션을 다양한 구매옵션과 함께 제공합니다. <br>제조, 물류, 서비스 등의 모든 산업에서 다양한 용도로 활용할 수 있습니다.
+                                    GS글로벌은 BYD의 국내 수입 Importer로 전기 자동차의 수입/판매를 담당하고 있으며,<br>
+                                    이를 기반으로 하여 향후 Mobility 관련 분야로의 사업 확장을 추진하고자 합니다.
                                 </dd>
                             </dl>
-                            <dl class="m-define__list">
+                            <!-- <dl class="m-define__list">
                                 <dt class="m-define__tit">사업모델</dt>
                                 <dd class="m-define__desc">
                                     <div class="o-img-wrap">
@@ -93,40 +98,49 @@
                                     <div class="o-img-wrap">
                                         <img src="/common/img/field-business/operation/robotics-list-img01-01.jpg?v=20190806">
                                     </div>
-                                    <div class="m-define__desc-tit">멀티 브랜드</div> 다양한 제품 &amp;브랜드의 협동로봇, 물류로봇, 그리퍼, 비전 등을 활용하여 고객에 맞는 최적의 솔루션을 제공하고 있습니다.<br><br>
-                                    <div class="m-define__desc-tit">Lifetime 서비스</div> 초기 컨설팅부터 솔루션 개발, 설치, 사용법 교육, 정기 점검, 유지보수, 제품의 처분/교체, 신규 제품 제안까지 단계별 솔루션을 제공하고 있습니다.<br><br>
+                                    <div class="m-define__desc-tit">멀티 브랜드</div> 다양한 제품 &브랜드의 협동로봇, 물류로봇, 그리퍼, 비전 등을 활용하여 고객에 맞는 최적의 솔루션을 제공하고 있습니다.<br /><br />
+                                    <div class="m-define__desc-tit">Lifetime 서비스</div> 초기 컨설팅부터 솔루션 개발, 설치, 사용법 교육, 정기 점검, 유지보수, 제품의 처분/교체, 신규 제품 제안까지 단계별 솔루션을 제공하고 있습니다.<br /><br />
                                     <div class="m-define__desc-tit">다양한 구매옵션</div> 합리적인 가격의 제품을 다양한 조건으로 공급하고 있습니다. 고객사의 초기 투자비용 경감과 효과성 사전 검증을 위해 장/단기 렌탈 서비스도 제공하고 있습니다.
                                 </dd>
-                            </dl>
+                            </dl> -->
                             <dl class="m-define__list">
-                                <dt class="m-define__tit">주요제품</dt>
+                                <dt class="m-define__tit">품목</dt>
                                 <dd class="m-define__desc">
-                                    <div class="m-define__desc-tit">1. 협동로봇 (Collaborative Robot, Cobot)</div>
-                                    협동로봇은 기존 산업용 로봇과 달리 안전펜스 없이도 사용이 가능하여 협소한 공간에 설치가 가능하며, 사람과 같은 공간에서 협업할 수 있는 혁신적인 로봇입니다. <br><br>
-                                    <div class="m-accordion__body-item m-accordion__body-img-wrap">
-                                        <div class="o-img-wrap">
-                                            <img src="/common/img/field-business/operation/robotics-list-img01-02.jpg">
-                                        </div>
-                                    </div>
-                                    <div class="m-define__desc-tit">2. 물류로봇</div>
-                                    물류로봇은 주로 공장, 창고 등에서 물품의 적재 및 이송 역할을 수행하는 로봇으로, 자율주행로봇(Autonomous Mobile Robots, AMR)과 무인운반차(Automated Guided Vehicle, AGV)가 대표적입니다.
-                                    <div class="m-accordion__body-item m-accordion__body-img-wrap">
-                                        <div class="o-img-wrap">
-                                            <img src="/common/img/field-business/operation/robotics-list-img03-01.jpg">
-                                        </div>
-                                    </div>
-                                    <div class="m-define__desc-tit">3. 그리퍼(Gripper), 비전(Vision)</div>
-                                    주변기기는 협동로봇이 특정 작업을 수행할 수 있게 하는 부착물 입니다.<br><br>
-                                    <div class="m-accordion__body-item m-accordion__body-img-wrap">
-                                        <div class="o-img-wrap">
-                                            <img src="/common/img/field-business/operation/robotics-list-img02-01.jpg">
-                                        </div>
-                                    </div>
+                                    <ul style="display: flex; justify-content: space-between; width: 100%;">
+                                        <li style="flex: 0 1 calc(100%/3 - 5px);">
+                                            <div class="m-define__desc-tit">버스</div>
+                                            <div class="m-accordion__body-item m-accordion__body-img-wrap">
+                                                <div class="o-img-wrap">
+                                                    <img src="/common/img/field-business/operation/ev_business_02.jpg">
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li style="flex: 0 1 calc(100%/3 - 5px);">
+                                            <div class="m-define__desc-tit">트럭</div>
+                                            <div class="m-accordion__body-item m-accordion__body-img-wrap">
+                                                <div class="o-img-wrap">
+                                                    <img src="/common/img/field-business/operation/ev_business_03.jpg">
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li style="flex: 0 1 calc(100%/3 - 5px);">
+                                            <div class="m-define__desc-tit">승용차</div>
+                                            <div class="m-accordion__body-item m-accordion__body-img-wrap">
+                                                <div class="o-img-wrap">
+                                                    <img src="/common/img/field-business/operation/ev_business_04.jpg">
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    
+                                    
+                                    
                                 </dd>
                             </dl>
                             <dl class="m-define__list">
-                                <dt class="m-define__tit">적용 분야</dt>
-                                <dd class="m-define__desc">GS글로벌이 제공하는 로봇 플랫폼 솔루션은 자동차, 전기/전자 등 제조업 뿐만 아니라 카페, 레스토랑 등의 서비스업에서도 활용할 수<br> 있습니다. 다양한 어플리케이션 개발이 가능하며, GS글로벌은 고객의 공정에 맞는 최적의 솔루션을 제공합니다
+                                <dt class="m-define__tit">비전</dt>
+                                <dd class="m-define__desc">GS글로벌은 버스, 트럭, 승용차 등 전기차 라인업 확대와
+                                충전, 에너지 등 다양한 사업 포트폴리오 구축을 통해<br> e모빌리티 Total Solution을 제공하고자 합니다.
                                 </dd>
                             </dl>
                         </div>
@@ -149,10 +163,10 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <p>02-2005-5494</p>
+                                            <p>02-2005-5191</p>
                                         </td>
                                         <td>
-                                            <a href="mailto:roboticsplus@gsgcorp.com">roboticsplus@gsgcorp.com</a>
+                                            <a href="mailto:roboticsplus@gsgcorp.com">eskim@gsgcorp.com</a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -164,7 +178,7 @@
         </div>
     </main>
 
-    <footer></footer>
+    <footer class="footer"></footer>
 
 </body>
 <script>
