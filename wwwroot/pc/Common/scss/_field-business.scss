@@ -1,0 +1,170 @@
+/* line 2, src/common/scss/package/06-p-field-business.scss */
+.field-business .c-subvisual {
+    background-image: url("../img/subvisual_field_business_bg.jpg");
+}
+
+/* line 5, src/common/scss/package/06-p-field-business.scss */
+.field-business .l-main__sub-layout {
+    background-image: url("../img/field-business/field-business_submain_bg.jpg");
+}
+
+/* line 8, src/common/scss/package/06-p-field-business.scss */
+.field-business .l-main__sub-layout .l-main__sub-layout__menu-box__item-desc-mo br {
+    display: block;
+}
+
+/* line 13, src/common/scss/package/06-p-field-business.scss */
+.field-business .m-tab {
+    margin-bottom: 60px;
+}
+
+/* line 17, src/common/scss/package/06-p-field-business.scss */
+.field-business .m-define__list .m-accordion__body-img-wrap {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 1120px) {
+    /* line 23, src/common/scss/package/06-p-field-business.scss */
+    .field-business .m-title__style-text > br {
+            display: none;
+    }
+}
+
+/* line 29, src/common/scss/package/06-p-field-business.scss */
+.petroleum-product {
+    padding-bottom: 0;
+}
+
+/* line 31, src/common/scss/package/06-p-field-business.scss */
+.petroleum-product .l-content__wrap-burst {
+    padding: 1px 0 150px;
+    margin-top: 70px;
+}
+
+/* line 36, src/common/scss/package/06-p-field-business.scss */
+.petroleum-product .more-info__wrap {
+    border-top: 2px solid #111;
+    padding: 12px 0;
+}
+
+/* line 39, src/common/scss/package/06-p-field-business.scss */
+.petroleum-product .more-info__wrap:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* line 45, src/common/scss/package/06-p-field-business.scss */
+.petroleum-product .more-info__tit {
+    width: 34%;
+}
+
+/* line 48, src/common/scss/package/06-p-field-business.scss */
+.petroleum-product .more-info__desc {
+    width: 66%;
+}
+
+/* line 51, src/common/scss/package/06-p-field-business.scss */
+.petroleum-product .more-info__list {
+    float: left;
+    display: table;
+    width: 50%;
+    padding: 8px 30px 8px 20px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+    /* line 51, src/common/scss/package/06-p-field-business.scss */
+    .petroleum-product .more-info__list {
+            float: none;
+            width: 100%;
+    }
+}
+
+/* line 61, src/common/scss/package/06-p-field-business.scss */
+.petroleum-product .more-info__list-item {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* line 65, src/common/scss/package/06-p-field-business.scss */
+.petroleum-product .more-info__list-item:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* line 70, src/common/scss/package/06-p-field-business.scss */
+.petroleum-product .more-info__list-item .m-btn {
+    float: left;
+    width: 48%;
+    margin: 0 1%;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 79, src/common/scss/package/06-p-field-business.scss */
+    .petroleum-product .l-content__wrap-burst {
+            margin-top: 35px;
+            padding-bottom: 70px;
+    }
+    /* line 84, src/common/scss/package/06-p-field-business.scss */
+    .petroleum-product .more-info__list {
+            padding: 4px 0 4px 5px;
+    }
+    /* line 86, src/common/scss/package/06-p-field-business.scss */
+    .petroleum-product .more-info__list-item .m-btn {
+            padding: 10px 0 10px 0;
+            text-align: center;
+    }
+    /* line 89, src/common/scss/package/06-p-field-business.scss */
+    .petroleum-product .more-info__list-item .m-btn.m-btn--style__color-03:after {
+            position: relative;
+            right: 0;
+    }
+    /* line 95, src/common/scss/package/06-p-field-business.scss */
+    .petroleum-product .more-info__tit {
+            word-break: keep-all;
+            font-size: 12px;
+    }
+}
+
+/* line 105, src/common/scss/package/06-p-field-business.scss */
+.enterprise .diagram-img-wrap {
+    width: 60%;
+    margin: 30px auto 0;
+    transition: width 0.3s linear 0s;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 105, src/common/scss/package/06-p-field-business.scss */
+    .enterprise .diagram-img-wrap {
+            width: 80%;
+    }
+    /* line 111, src/common/scss/package/06-p-field-business.scss */
+    .enterprise .diagram-img-wrap > img {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+    }
+}
+
+/* line 123, src/common/scss/package/06-p-field-business.scss */
+.machine-income .m-btn-wrap,
+.gsEntek .m-btn-wrap,
+.logistics .m-btn-wrap {
+    margin-bottom: 40px;
+}
+
+/* line 126, src/common/scss/package/06-p-field-business.scss */
+.machine-income .m-btn.m-btn--style__color-03,
+.gsEntek .m-btn.m-btn--style__color-03,
+.logistics .m-btn.m-btn--style__color-03 {
+    color: #111;
+}
+
+/* line 128, src/common/scss/package/06-p-field-business.scss */
+.machine-income .m-btn.m-btn--style__color-03:hover,
+.gsEntek .m-btn.m-btn--style__color-03:hover,
+.logistics .m-btn.m-btn--style__color-03:hover {
+    color: #fff;
+}

@@ -55,7 +55,7 @@ gulp.task('watch', ()=> {
 
     browserSync.init({
         //logLevel: "debug",
-        port : 3333,
+        port : 3334,
         open: false,
         directory: true,
         server: './wwwroot/',
