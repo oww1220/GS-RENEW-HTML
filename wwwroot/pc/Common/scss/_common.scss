@@ -105,9 +105,9 @@ $extra-small-devices: 320px;
 //@include Background($sprite:'error', $type:'png', $position:right center); ---  사용법
 //@include Background($sprite:'error', $type:'jpg'); ---  사용법
 //@include Background($sprite:'error', $type:'jpg', $position:20% 20%, $size:100%); ---  사용법
-@mixin Background($sprite, $type: 'png', $position: 0 0, $size: auto, $path: 'icons') {
+@mixin Background($sprite:'', $position: 0 0, $size: auto) {
     background-repeat: no-repeat;
-    background-image: url('../../assets/images/#{$path}/#{$sprite}.#{$type}');
+    background-image: url($sprite);
     background-position: $position;
     background-size: $size;
 }
@@ -281,6 +281,7 @@ $mob-s-width		: 375px;
 		@content;
 	}
 }
+
 
 // --------------------------------------------------
 

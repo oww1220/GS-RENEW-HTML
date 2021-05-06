@@ -1,3 +1,13 @@
 .SustainBusiness {
-    
+    .l-main__sub-layout {
+        background-image: url('../img/sustain-business/sustain-business_submain_bg.jpg');
+    }
+    .l-main__sub-layout__menu-box__item:first-child + .l-main__sub-layout__menu-box__item {
+        margin-right: 33.3%;
+    }
+    @include pc-only {
+        .l-main__sub-layout__menu-box {
+            padding-top: 33%;
+        }
+    }
 }
