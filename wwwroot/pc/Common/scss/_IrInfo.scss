@@ -1,0 +1,600 @@
+/* line 2, src/common/scss/package/06-p-Ir-Info.scss */
+.IR-info .c-subvisual {
+    background-image: url("../img/subvisual_IR_info_bg.jpg");
+}
+
+/* line 5, src/common/scss/package/06-p-Ir-Info.scss */
+.IR-info .l-main__sub-layout {
+    background-image: url("../img/ir-info/ir-info_submain_bg.jpg");
+}
+
+@media screen and (min-width: 640px) {
+    /* line 5, src/common/scss/package/06-p-Ir-Info.scss */
+    .IR-info .l-main__sub-layout {
+            background-position: 75% 50%;
+    }
+    /* line 9, src/common/scss/package/06-p-Ir-Info.scss */
+    .IR-info .l-main__sub-layout__menu-box {
+            padding-top: 33%;
+    }
+}
+
+/* line 14, src/common/scss/package/06-p-Ir-Info.scss */
+.IR-info .l-main__sub-layout__info:after {
+    content: '';
+    position: absolute;
+    display: block;
+    background-image: url(../img/icons.png);
+    width: 15px;
+    height: 7px;
+    bottom: 30px;
+    right: 90px;
+    background-position: -187px -41px;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 14, src/common/scss/package/06-p-Ir-Info.scss */
+    .IR-info .l-main__sub-layout__info:after {
+            content: none;
+    }
+}
+
+/* line 30, src/common/scss/package/06-p-Ir-Info.scss */
+.IR-info .l-main__sub-layout__menu-box__item:first-child + .l-main__sub-layout__menu-box__item {
+    margin-right: 33.3%;
+}
+
+/* line 34, src/common/scss/package/06-p-Ir-Info.scss */
+.IR-info .l-main__sub-layout .c-stock__price-time {
+    top: 100%;
+    left: 0;
+    margin-top: 10px;
+    right: auto;
+}
+
+/* line 39, src/common/scss/package/06-p-Ir-Info.scss */
+.IR-info .l-main__sub-layout .c-stock__price-time:before {
+    content: none;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 34, src/common/scss/package/06-p-Ir-Info.scss */
+    .IR-info .l-main__sub-layout .c-stock__price-time {
+            left: 10px;
+    }
+}
+
+/* line 47, src/common/scss/package/06-p-Ir-Info.scss */
+.IR-info .stockholder-pie-wrap {
+    margin-top: -25px;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 47, src/common/scss/package/06-p-Ir-Info.scss */
+    .IR-info .stockholder-pie-wrap {
+            margin-top: -10px;
+    }
+}
+
+/* line 52, src/common/scss/package/06-p-Ir-Info.scss */
+.IR-info .stockholder-pie-wrap__text {
+    margin-bottom: 50px;
+    font-size: 17px;
+    color: #999;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 52, src/common/scss/package/06-p-Ir-Info.scss */
+    .IR-info .stockholder-pie-wrap__text {
+            margin-bottom: 25px;
+            font-size: 15px;
+    }
+}
+
+/* line 62, src/common/scss/package/06-p-Ir-Info.scss */
+.IR-info .stockholder-pie-wrap__img {
+    width: 100%;
+    margin: 0 auto 50px;
+}
+
+/* line 65, src/common/scss/package/06-p-Ir-Info.scss */
+.IR-info .stockholder-pie-wrap__img > img {
+    width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 62, src/common/scss/package/06-p-Ir-Info.scss */
+    .IR-info .stockholder-pie-wrap__img {
+            width: 100%;
+            margin-bottom: 25px;
+    }
+    /* line 71, src/common/scss/package/06-p-Ir-Info.scss */
+    .IR-info .stockholder-pie-wrap__img > img {
+            width: 120%;
+            margin-left: -10%;
+            margin-right: -10%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* line 79, src/common/scss/package/06-p-Ir-Info.scss */
+    .IR-info .stock_Info {
+            overflow: hidden;
+    }
+}
+
+/* line 83, src/common/scss/package/06-p-Ir-Info.scss */
+.IR-info .stock_Info #chartdiv {
+    margin: 50px auto;
+    height: 400px;
+    padding-left: 25px;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 83, src/common/scss/package/06-p-Ir-Info.scss */
+    .IR-info .stock_Info #chartdiv {
+            margin: 25px -50px 20px -15px;
+            padding-left: 0;
+            height: 300px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* line 96, src/common/scss/package/06-p-Ir-Info.scss */
+    .IR-info .financial_info .l-content__wrap-boxshape {
+            padding: 15px 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* line 101, src/common/scss/package/06-p-Ir-Info.scss */
+    .IR-info .financial_info .m-subtab__head-wrap {
+            border-bottom: 0;
+    }
+}
+
+/* line 106, src/common/scss/package/06-p-Ir-Info.scss */
+.IR-info .financial_info .m-subtab__pc {
+    display: block;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 106, src/common/scss/package/06-p-Ir-Info.scss */
+    .IR-info .financial_info .m-subtab__pc {
+            display: none;
+    }
+}
+
+/* line 112, src/common/scss/package/06-p-Ir-Info.scss */
+.IR-info .financial_info .m-subtab__mo {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 112, src/common/scss/package/06-p-Ir-Info.scss */
+    .IR-info .financial_info .m-subtab__mo {
+            display: block;
+    }
+}
+
+/* line 117, src/common/scss/package/06-p-Ir-Info.scss */
+.IR-info .financial_info .m-subtab__mo .m-select__wrap {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* line 121, src/common/scss/package/06-p-Ir-Info.scss */
+.IR-info .financial_info .m-subtab__mo .m-select__view {
+    box-sizing: border-box;
+}
+
+/* line 131, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-head__wrap {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+/* line 136, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-head__list {
+    display: table-cell;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 136, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-head__list {
+            display: block;
+            width: 50%;
+            float: left;
+    }
+}
+
+/* line 145, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-head__list:first-child .calendar-head__list-item__month__item:first-child {
+    border-left: 1px solid #ddd;
+}
+
+/* line 150, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-head__list-color-01 .calendar-head__list-item__tit {
+    background-color: #1f6593;
+}
+
+/* line 154, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-head__list-color-02 .calendar-head__list-item__tit {
+    background-color: #0072bc;
+}
+
+/* line 158, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-head__list-color-03 .calendar-head__list-item__tit {
+    background-color: #5da4d2;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 161, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-head__list-color-03 .calendar-head__list-item__month__item:first-child {
+            border-left: 1px solid #ddd;
+    }
+}
+
+/* line 167, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-head__list-color-04 .calendar-head__list-item__tit {
+    background-color: #85adc7;
+}
+
+/* line 171, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-head__list-item__tit {
+    padding: 19px 0;
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    transition: padding 0.3s linear 0s,
+font-size 0.3s linear 0s;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 171, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-head__list-item__tit {
+            padding: 10px 0;
+            font-size: 15px;
+    }
+}
+
+/* line 183, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-head__list-item__month {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    height: 60px;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 183, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-head__list-item__month {
+            height: 50px;
+    }
+}
+
+/* line 191, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-head__list-item__month__item {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+@media screen and (min-width: 640px) {
+    /* line 198, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-head__list-item__month__item:after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 100%;
+            min-height: 0;
+            bottom: -1px;
+            transition: min-height 0.3s ease 0s;
+    }
+    /* line 209, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-head__list-item__month__item:hover {
+            color: #0072bc;
+            font-weight: 800;
+    }
+    /* line 212, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-head__list-item__month__item:hover:after {
+            min-height: 4px;
+            background-color: #0072bc;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* line 191, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-head__list-item__month__item {
+            font-size: 15px;
+    }
+}
+
+/* line 228, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-body__wrap {
+    margin-top: 150px;
+    border-top: 2px solid #111;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 228, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__wrap {
+            margin-top: 50px;
+    }
+}
+
+/* line 236, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-body__list {
+    position: relative;
+    display: table;
+    width: 100%;
+}
+
+/* line 240, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-body__list-tit {
+    background-color: #f9f9f9;
+}
+
+/* line 242, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-body__list-tit .calendar-body__list-itme__quarter-item {
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 800;
+    color: #111;
+}
+
+@media screen and (max-width: 1050px) {
+    /* line 242, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-tit .calendar-body__list-itme__quarter-item {
+            font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* line 242, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-tit .calendar-body__list-itme__quarter-item {
+            padding: 10px 0;
+            font-size: 13px;
+    }
+}
+
+/* line 256, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-body__list-tit .calendar-body__list-itme__quarter-time {
+    width: 29%;
+}
+
+@media screen and (max-width: 1050px) {
+    /* line 256, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-tit .calendar-body__list-itme__quarter-time {
+            width: 20%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* line 256, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-tit .calendar-body__list-itme__quarter-time {
+            width: 115px;
+    }
+}
+
+/* line 265, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-body__list-tit .calendar-body__list-itme__quarter-desc {
+    width: 49%;
+}
+
+@media screen and (max-width: 1050px) {
+    /* line 265, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-tit .calendar-body__list-itme__quarter-desc {
+            width: 60%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* line 265, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-tit .calendar-body__list-itme__quarter-desc {
+            width: 100px;
+    }
+}
+
+/* line 275, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-body__list-itme {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* line 278, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-body__list-itme__tit {
+    width: 140px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1050px) {
+    /* line 278, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-itme__tit {
+            width: 70px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* line 278, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-itme__tit {
+            width: 35px;
+            font-size: 12px;
+    }
+}
+
+/* line 290, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-body__list-itme__tit strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 290, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-itme__tit strong {
+            font-size: 25px;
+    }
+}
+
+/* line 300, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-body__list-itme__quarter-list {
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    min-height: 50px;
+}
+
+/* line 306, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-body__list-itme__quarter-item {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 40px;
+    font-size: 20px;
+    transition: all 0.3s linear 0s;
+    word-break: keep-all;
+}
+
+@media screen and (max-width: 1050px) {
+    /* line 306, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-itme__quarter-item {
+            padding: 20px;
+            font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* line 306, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-itme__quarter-item {
+            padding: 10px;
+    }
+}
+
+/* line 321, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-body__list-itme__quarter-time {
+    width: 190px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1050px) {
+    /* line 321, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-itme__quarter-time {
+            padding: 10px 5px;
+            width: 130px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* line 321, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-itme__quarter-time {
+            width: 80px;
+            font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* line 321, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-itme__quarter-time {
+            width: 50px;
+            word-break: break-all;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* line 338, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-itme__quarter-desc {
+            padding: 0;
+            font-size: 11px;
+            width: 110px;
+    }
+}
+
+/* line 345, src/common/scss/package/06-p-Ir-Info.scss */
+.calendar-body__list-itme__quarter-origin {
+    width: 260px;
+    padding: 40px 0 40px;
+    text-align: center;
+    font-size: 15px;
+    color: #666;
+}
+
+@media screen and (max-width: 1050px) {
+    /* line 345, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-itme__quarter-origin {
+            width: 160px;
+            font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* line 345, src/common/scss/package/06-p-Ir-Info.scss */
+    .calendar-body__list-itme__quarter-origin {
+            width: auto;
+            padding: 10px;
+            text-align: left;
+            font-size: 11px;
+            word-break: break-all;
+    }
+}
+
+/* line 372, src/common/scss/package/06-p-Ir-Info.scss */
+[lang="en"] .IR-info .l-main__sub-layout__typeA .l-main__sub-layout__menu {
+    width: 55%;
+}
+
+@media screen and (max-width: 640px) {
+    /* line 372, src/common/scss/package/06-p-Ir-Info.scss */
+    [lang="en"] .IR-info .l-main__sub-layout__typeA .l-main__sub-layout__menu {
+            width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* line 379, src/common/scss/package/06-p-Ir-Info.scss */
+    [lang="en"] .IR-info .l-main__sub-layout__menu-box__item:first-child + .l-main__sub-layout__menu-box__item {
+            margin-right: 0;
+    }
+    /* line 382, src/common/scss/package/06-p-Ir-Info.scss */
+    [lang="en"] .IR-info .calendar-body__list-tit .calendar-body__list-itme__quarter-time {
+            width: 125px;
+    }
+}
+
+.IR-info {
+    .m-btn-wrap {
+        margin-bottom: 40px;
+        .m-btn {
+            .m-btn-text {
+                color: #111;
+            }
+            &:hover {
+                .m-btn-text {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    @include media( $queryPoint: (max-width:640px) ){
+        .m-btn-wrap {
+            .m-btn {
+                width : 100%;
+                & + .m-btn {
+                    margin: 6px 0 0;
+                }
+            }
+
+        }
+    }
+}
