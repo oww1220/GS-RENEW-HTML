@@ -10,4 +10,46 @@
             padding-top: 33%;
         }
     }
+
+    .c-subvisual {
+        background-image: url('../img/subvisual_company_news_bg.jpg');
+    }
+
+    .management {
+        .o-img-wrap__rwd {
+            width: 1120px;
+            margin: 0 auto;
+            padding-bottom: 150px;
+        }
+        @include tab {
+            .o-img-wrap__rwd {
+                width: auto;
+            }
+        }
+        @include mob-large {
+            .o-img-wrap__rwd {
+                padding-bottom: 70px;
+            }
+        }
+        .l-content {
+            padding: 0;
+        }
+        .m-tab__list.m-tab__head-list {
+            margin-bottom: 0;
+        }
+        .m-accordion-wrap {
+            margin-bottom: 150px;
+        }
+        .subtab01 .l-content__wrap-burst {
+            padding-top: 1px;
+        }
+        
+
+
+    }
+
+
+
+
+
 }
