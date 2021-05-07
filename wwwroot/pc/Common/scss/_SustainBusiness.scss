@@ -122,5 +122,82 @@
         }
     }
 
+    .content-box {
+        border-top: 2px solid #111;
+        border-bottom: 1px solid #ddd;
+        background-color: #f9f9f9;
+        padding:50px 40px;
+        > ul {
+            > li {
+                color:#666;
+                font-size: 15px;
+                margin-bottom:30px;
+                line-height: 1.5;
+            }
+        }
+    }
+    @include mob-large {
+        .content-box {
+            padding:25px 20px;
+            > ul {
+                > li{
+                    font-size: 13px;
+                    margin-bottom:15px;
+                }
+            }
+        }
+    }
+
+    .guide-list {
+        > ul {
+            margin-top:7px;
+            > li{
+                position: relative;
+                padding-left: 7px;
+                line-height: 1.4;
+                margin-top: 7px;
+                font-size: 14px;
+                &:before {
+                    @include Position($top:8px, $left:0);
+                    display: block;
+                    content: "";
+                    width: 2px;height: 2px;
+                    background-color: #2B2B2B;
+                    border-radius: 100%;;
+                }
+
+            }
+            @include mob-large {
+                > li {
+                    font-size: 13px;
+                }
+            }
+        }	
+    }
+
+    .m-btn-wrap {
+        margin-bottom: 40px;
+        .m-btn {
+            .m-btn-text {
+                color: #111;
+            }
+            &:hover {
+                .m-btn-text {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    @include mob-large {
+        .m-btn-wrap {
+            .m-btn {
+                width : 100%;
+                & + .m-btn {
+                    margin: 6px 0 0;
+                }
+            }
+
+        }
+    }
 
 }
