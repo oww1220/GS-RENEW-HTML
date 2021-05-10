@@ -200,4 +200,21 @@
         }
     }
 
+    .social-contribution {
+        .m-title__list.m-title__sub-title {
+            margin-top:0;
+        }
+        .thumb__list-item__cell-cnt__wrap-tit {
+            margin-top:0;
+        }
+        .m-title__desc {
+            margin-top: 25px;
+        }
+        @include mob-large {
+            .thumb__list-item__cell-cnt__wrap-tit {
+                margin-top:20px;
+            }
+        }
+    }
+
 }

@@ -1,0 +1,95 @@
+.thumb__list {
+    padding-bottom:60px;
+    @media screen and (max-width:640px) {
+        padding-bottom:30px;
+    }
+    &-item {
+        padding:60px 20px;
+        border-top:1px solid #ddd;
+        &:first-child {
+            border-top:0;
+            @media screen and (max-width:640px) {
+                padding-top:40px;
+            }
+        }
+        &:after {
+            content:'';
+            display:block;
+            clear:both;
+        }
+        @media screen and (max-width:640px) {
+            padding:30px 20px;
+        }
+        &__cell {
+            float:left;
+            width:50%;
+            padding:0 20px;
+            box-sizing:border-box;
+            @media screen and (max-width:640px) {
+                float:none;
+                padding:0;
+                width:100%;
+                .o-img-wrap > img {
+                    width:100%;
+                    height:100%;
+                    margin:0;
+                }
+            }
+            &-cnt__wrap {
+                &-tit {
+                    margin-top:50px;
+                    font-size:26px;
+                    color:#0072bc;
+                    transition:margin 0.3s linear 0s,
+                    font-size 0.3s linear 0s;
+                    @media screen and (max-width: 1050px) {
+                        margin-top:0;
+                        font-size:21px;
+                    }
+                    @media screen and (max-width: 640px) {
+                        margin-top:20px;
+                        font-size:16px;
+                    }
+                    &:after {
+                        content:'';
+                        display:block;
+                        width:20px;
+                        height:1px;
+                        margin:23px 0;
+                        background-color:#0072bc;
+                        @media screen and (max-width:640px) {
+                            margin:15px 0;
+                        }
+                    }
+                }
+                &-desc {
+                    word-break:keep-all;
+                    font-size:15px;
+                    line-height:1.5;
+                    color:#666;
+                    transition:font-size 0.3s linear 0s;
+                    @media screen and (max-width: 1050px) {
+                        font-size:14px;
+                    }
+                    @media screen and (max-width:640px) {
+                        font-size:12px;
+                    }
+                }
+                &-table {
+                    .m-title__desc-small {
+                        text-align: right;
+                        margin:0;
+                    }
+                }
+            }
+        }
+        &__position-right {
+            .thumb__list-item__cell-img {
+                float:right;
+                @media screen and (max-width:640px) {
+                    float: none;
+                }
+            }
+        }
+    }
+}

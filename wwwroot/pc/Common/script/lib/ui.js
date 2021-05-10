@@ -145,7 +145,10 @@ $(document).ready(function () {
         if (_dataType == 'tab') {
             $navItem.on('click', function (event) {
                 var $this = $(this),
-                    $target = $($this.attr('href').replace('#', '.'));
+                    href = $this.attr('href');
+                if(href.indexOf('#') === -1) return;
+
+                var $target = $(href.replace('#', '.'));
                 event.preventDefault();
 
                 function actives(that) {
