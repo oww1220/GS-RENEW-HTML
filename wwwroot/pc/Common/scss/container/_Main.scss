@@ -172,6 +172,7 @@ width 0.3s linear 0s;
     color: inherit;
     line-height: 1.2;
     transition: font-size 0.3s linear 0s;
+    @include Raleway(800);
 }
 
 @media screen and (max-width: 1280px) {
@@ -280,10 +281,11 @@ width 0.3s linear 0s;
     .section__content__info-wrap {
         position: relative;
         .section__content__info__tit {
+            @include Raleway(800);
             @include Position($top: 50px, $left: 0);
-            width: 780px;
+            width: 850px;
             &:after {
-                margin-left: -255px;
+                margin-left: -320px;
             }
         }
         .section__content__info__desc {
@@ -295,7 +297,7 @@ width 0.3s linear 0s;
         .section__content__info-wrap {
             .section__content__info__tit {
                 &:after {
-                    margin-left: -380px;
+                    margin-left: -420px;
                 }
             }
         }
