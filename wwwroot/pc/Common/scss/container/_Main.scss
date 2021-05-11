@@ -210,7 +210,6 @@ width 0.3s linear 0s;
             bottom: 25px;
             left: 100%;
             margin-left: 20px;
-            display: none;
     }
 }
 
@@ -460,6 +459,9 @@ width 0.3s linear 0s;
 /* line 297, src/common/scss/package/06-p-main.scss */
 .section.section-business {
     background-image: url("../img/main_section-business_bg.jpg");
+    .section__content__info__tit:after {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 640px) {
