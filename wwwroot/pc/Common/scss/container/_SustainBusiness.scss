@@ -233,14 +233,29 @@
             margin-top:0;
         }
         .thumb__list-item__cell-cnt__wrap-tit {
-            margin-top:0;
+            margin-top:5px;
+            margin-bottom: 30px;
+            &:after {
+                display: none;
+            }
         }
         .m-title__desc {
             margin-top: 25px;
+            text-align: right;
+        }
+        .m-table-wrap {
+            th {
+                @include Raleway(800);
+            }
+            td p {
+                @include Raleway(400);
+            }
+            
         }
         @include mob-large {
             .thumb__list-item__cell-cnt__wrap-tit {
                 margin-top:20px;
+                margin-bottom: 15px;
             }
         }
     }
