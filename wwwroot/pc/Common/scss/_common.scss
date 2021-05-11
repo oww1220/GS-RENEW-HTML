@@ -18,6 +18,11 @@ $extra-small-devices: 320px;
     font-weight: normal;
 }
 
+@mixin Raleway($weight: 400) {
+    font-family: 'Raleway';
+    font-weight: $weight;
+}
+
 @mixin NoscrollBar {
     scrollbar-width: none;
     -ms-overflow-style: none;

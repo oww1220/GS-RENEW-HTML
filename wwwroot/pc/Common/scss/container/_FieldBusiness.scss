@@ -179,4 +179,15 @@
             padding-top: 33%;
         }
     }
+
+    .l-main__sub-layout__info-tit {
+        font-weight: 400;
+    }
+    .l-main__sub-layout__info-desc__sub-desc {
+        @include Raleway;
+    }
+    .l-main__sub-layout__menu-box__item-tit {
+        @include Raleway($weight:300);
+    }
+
 }
