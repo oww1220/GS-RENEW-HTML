@@ -770,7 +770,7 @@ width 0.3s linear 0s;
 
 /* line 494, src/common/scss/package/06-p-main.scss */
 .section.section-business .section__content__box__item-tit {
-    @include Raleway;
+    @include Raleway(600);
     font-size: 30px;
     color: inherit;
 }
