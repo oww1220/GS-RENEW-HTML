@@ -190,4 +190,52 @@
         @include Raleway($weight:300);
     }
 
+    .guide-list {
+        > strong {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 20px;
+        }
+        > ul {
+            margin-top:7px;
+            > li{
+                position: relative;
+                padding-left: 7px;
+                line-height: 1.4;
+                margin-top: 7px;
+                font-size: 15px;
+                &:before {
+                    @include Position($top:8px, $left:0);
+                    display: block;
+                    content: "";
+                    width: 2px;height: 2px;
+                    background-color: #2B2B2B;
+                    border-radius: 100%;;
+                }
+
+            }
+            @include mob-large {
+                > li {
+                    font-size: 13px;
+                }
+            }
+        }
+        @include mob-large {
+            > strong {
+                margin-bottom: 10px;
+            }
+        }	
+    }
+    
+    .m-define__desc {
+        .guide-list {
+            margin-top: 20px;
+        }
+        @include mob-large {
+            .guide-list {
+                margin-top: 0px;
+            }
+        }
+    }
+
 }

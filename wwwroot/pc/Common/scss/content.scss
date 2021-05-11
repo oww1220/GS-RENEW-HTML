@@ -884,6 +884,7 @@ html * {
 		font-size: 24px;
 		color: #111;
 		transition: all 0.3s linear 0s;
+		font-weight: 400;
 }
 
 /* line 102, src/common/scss/package/03-m-title.scss */
@@ -1054,7 +1055,7 @@ html * {
 		padding: 15px;
 		box-sizing: border-box;
 		vertical-align: top;
-		font-weight: 800;
+		font-weight: 400;
 		transition: all 0.3s linear 0s;
 }
 
@@ -5182,6 +5183,7 @@ footer {
 		position: relative;
 		font-size: 26px;
 		margin-bottom: 15px;
+		font-weight: 400;
 }
 
 @media screen and (max-width: 640px) {
