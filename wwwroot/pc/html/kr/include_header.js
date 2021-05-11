@@ -29,7 +29,7 @@ $(function(){
                                 <li class="c-header__menu-sub-list__item"><a href="/Kr/Business/History.aspx"
                                         class="c-header__menu-sub-list__item-tit"><span>연혁</span></a></li>
                                 <li class="c-header__menu-sub-list__item"><a href="/Kr/Business/Management.aspx"
-                                        class="c-header__menu-sub-list__item-tit"><span>윤리경영</span></a></li>
+                                        class="c-header__menu-sub-list__item-tit"><span>News</span></a></li>
                                 <li class="c-header__menu-sub-list__item"><a href="/Kr/Business/GlobalNetworkWordWide.aspx"
                                         class="c-header__menu-sub-list__item-tit"><span>글로벌 네트워크</span></a></li>
                                 <li class="c-header__menu-sub-list__item"><a href="/Kr/Business/Directions.aspx"
@@ -43,6 +43,29 @@ $(function(){
                             <ul class="c-header__menu-sub-list">
                                 <li class="c-header__menu-sub-list__item"><a href="/Kr/FieldBusiness/Trading/Steel.aspx"
                                         class="c-header__menu-sub-list__item-tit"><span>Trading</span></a><button
+                                        class="c-header__menu-sub-list__depth-btn" type="button"><span
+                                            class="c-header__menu-sub-list__depth-btn__text">더보기</span></button>
+                                    <ul class="c-header__menu-sub-list__depth-list">
+                                        <li class="c-header__menu-sub-list__depth-list__item"><a
+                                                href="/Kr/FieldBusiness/Trading/Steel.aspx"
+                                                class="c-header__menu-sub-list__depth-list-item-tit"><span>철강</span></a>
+                                        </li>
+                                        <li class="c-header__menu-sub-list__depth-list__item"><a
+                                                href="/Kr/FieldBusiness/Trading/PetroleumProduct.aspx"
+                                                class="c-header__menu-sub-list__depth-list-item-tit"><span>석유화학</span></a>
+                                        </li>
+                                        <li class="c-header__menu-sub-list__depth-list__item"><a
+                                                href="/Kr/FieldBusiness/Trading/ResourcesCoal.aspx"
+                                                class="c-header__menu-sub-list__depth-list-item-tit"><span>자원</span></a>
+                                        </li>
+                                        <li class="c-header__menu-sub-list__depth-list__item"><a
+                                                href="/Kr/FieldBusiness/Trading/MachineGoods.aspx"
+                                                class="c-header__menu-sub-list__depth-list-item-tit"><span>기계/물자</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="c-header__menu-sub-list__item"><a href="/Kr/FieldBusiness/Trading/Steel.aspx"
+                                        class="c-header__menu-sub-list__item-tit"><span>Green</span></a><button
                                         class="c-header__menu-sub-list__depth-btn" type="button"><span
                                             class="c-header__menu-sub-list__depth-btn__text">더보기</span></button>
                                     <ul class="c-header__menu-sub-list__depth-list">
@@ -137,19 +160,43 @@ $(function(){
                                         class="c-header__menu-sub-list__item-tit"><span>재무정보</span></a></li>
                                 <li class="c-header__menu-sub-list__item"><a href="/Kr/IrInfo/IRList.aspx"
                                         class="c-header__menu-sub-list__item-tit"><span>IR 자료실</span></a></li>
+                                <li class="c-header__menu-sub-list__item"><a href="/Kr/IrInfo/IRList.aspx"
+                                        class="c-header__menu-sub-list__item-tit"><span>홍보자료</span></a></li>
                             </ul>
                         </li>
                         <li class="c-header__menu-list__item"><a href="/Kr/CompanyNews/index.aspx"
-                                class="c-header__menu-list__item-tit c-header__menu-list__item-tit-pc"><span>회사소식</span></a>
-                            <div class="c-header__menu-list__item-tit c-header__menu-list__item-tit-mo"><span>회사소식</span>
+                                class="c-header__menu-list__item-tit c-header__menu-list__item-tit-pc"><span>지속가능경영</span></a>
+                            <div class="c-header__menu-list__item-tit c-header__menu-list__item-tit-mo"><span>지속가능경영</span>
                             </div>
                             <ul class="c-header__menu-sub-list">
                                 <li class="c-header__menu-sub-list__item"><a href="/Kr/CompanyNews/News.aspx"
-                                        class="c-header__menu-sub-list__item-tit"><span>News</span></a></li>
+                                        class="c-header__menu-sub-list__item-tit"><span>윤리경영</span></a></li>
                                 <li class="c-header__menu-sub-list__item"><a href="/Kr/CompanyNews/SocialContribution.aspx"
+                                        class="c-header__menu-sub-list__item-tit"><span>환경경영</span></a></li>
+                                <li class="c-header__menu-sub-list__item"><a
+                                        href="/Kr/IrInfo/Management/BoardOfDirectors.aspx"
+                                        class="c-header__menu-sub-list__item-tit"><span>준법경영</span></a><button
+                                        class="c-header__menu-sub-list__depth-btn" type="button"><span
+                                            class="c-header__menu-sub-list__depth-btn__text">더보기</span></button>
+                                    <ul class="c-header__menu-sub-list__depth-list">
+                                        <li class="c-header__menu-sub-list__depth-list__item"><a
+                                                href="/Kr/IrInfo/Management/BoardOfDirectors.aspx"
+                                                class="c-header__menu-sub-list__depth-list-item-tit"><span>이사회</span></a>
+                                        </li>
+                                        <li class="c-header__menu-sub-list__depth-list__item"><a
+                                                href="/Kr/IrInfo/Management/StockHolder.aspx"
+                                                class="c-header__menu-sub-list__depth-list-item-tit"><span>주주현황</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="c-header__menu-sub-list__item"><a href="/Kr/CompanyNews/News.aspx"
                                         class="c-header__menu-sub-list__item-tit"><span>사회공헌</span></a></li>
+                                <li class="c-header__menu-sub-list__item"><a href="/Kr/CompanyNews/SocialContribution.aspx"
+                                        class="c-header__menu-sub-list__item-tit"><span>교육활동</span></a></li>
                                 <li class="c-header__menu-sub-list__item"><a href="/Kr/CompanyNews/PromotionalMaterial.aspx"
-                                        class="c-header__menu-sub-list__item-tit"><span>홍보자료</span></a></li>
+                                        class="c-header__menu-sub-list__item-tit"><span>지속가능경영조직</span></a></li>
+                                <li class="c-header__menu-sub-list__item"><a href="/Kr/CompanyNews/PromotionalMaterial.aspx"
+                                        class="c-header__menu-sub-list__item-tit"><span>ESG등급</span></a></li>
                             </ul>
                         </li>
                         <li class="c-header__menu-list__item"><a href="/Kr/Recruit/TalentVision.aspx"
