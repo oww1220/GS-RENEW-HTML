@@ -7,8 +7,18 @@
     }
     @include pc-only {
         .l-main__sub-layout__menu-box {
-            padding-top: 33%;
+            padding-top: 35.6%;
         }
+    }
+
+    .l-main__sub-layout__info-tit {
+        font-weight: 400;
+    }
+    .l-main__sub-layout__info-desc__sub-desc {
+        @include Raleway;
+    }
+    .l-main__sub-layout__menu-box__item-tit {
+        font-weight: 400;
     }
 
     .c-subvisual {
@@ -58,6 +68,10 @@
                 }
                 .m-accordion__head__tit {
                     padding-left:110px;
+                }
+                .m-accordion__head__sub-tit {
+                    @include Raleway(600);
+                    font-size: 20px;
                 }
                 @include mob {
                     .m-accordion__head__tit {
@@ -113,6 +127,9 @@
             color:#666;
             font-size: 15px;
             line-height: 1.5;
+        }
+        .m-tab__list.m-tab__head-list {
+            margin-bottom: 0;
         }
         @include mob-large {
             .guide {
@@ -190,6 +207,7 @@
         .m-btn {
             .m-btn-text {
                 color: #111;
+                font-size: 14px;
             }
             &:hover {
                 .m-btn-text {

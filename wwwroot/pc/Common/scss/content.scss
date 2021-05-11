@@ -92,6 +92,7 @@ html * {
 		font-family: 'NanumBarunGothic',sans-serif;
 }
 
+
 /* line 1, src/common/scss/package/02-o-cells.scss */
 .cells {
 		display: table;
@@ -790,6 +791,9 @@ html * {
 .m-title__list.m-title__sub-title .m-title__style-text {
 		font-size: 30px;
 		line-height: 1.3;
+	b {
+		font-weight: 400;
+	}
 }
 
 @media screen and (max-width: 1120px) {
@@ -2717,6 +2721,10 @@ html * {
 }
 
 /* line 155, src/common/scss/package/03-m-accordion.scss */
+.m-accordion__body-item {
+	font-size: 15px;
+	line-height: 1.5;
+}
 .m-accordion__body-item__tit {
 		text-indent: -5px;
 		padding: 20px 0 5px;
