@@ -174,7 +174,11 @@
     .l-main__sub-layout__menu-box__item:first-child + .l-main__sub-layout__menu-box__item {
         margin-right: 33.3%;
     }
+    
     @include pc-only {
+        .l-main__sub-layout__info {
+            height: 580px;
+        }
         .l-main__sub-layout__menu-box {
             padding-top: 207px;
         }
@@ -240,10 +244,3 @@
 
 }
 
-[lang="en"] .field-business {
-    @include pc-only {
-        .l-main__sub-layout__menu-box {
-            padding-top: 198px;
-        }
-    }
-}

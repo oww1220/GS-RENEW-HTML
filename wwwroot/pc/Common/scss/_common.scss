@@ -62,6 +62,9 @@ $extra-small-devices: 320px;
 @mixin Flex-start-start {
     @include Flex-config();
 }
+@mixin Flex-start-end {
+    @include Flex-config($align:flex-end);
+}
 @mixin Flex-center-start {
     @include Flex-config($justify:center);
 }
