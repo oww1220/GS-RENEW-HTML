@@ -140,7 +140,7 @@ $(function(){
                                         class="c-header__menu-sub-list__item-tit"><span>공시정보</span></a></li>
                                 <li class="c-header__menu-sub-list__item"><a
                                         href="/Kr/IrInfo/Management/BoardOfDirectors.aspx"
-                                        class="c-header__menu-sub-list__item-tit"><span>경영정보</span></a><button
+                                        class="c-header__menu-sub-list__item-tit"><span>지배구조</span></a><button
                                         class="c-header__menu-sub-list__depth-btn" type="button"><span
                                             class="c-header__menu-sub-list__depth-btn__text">더보기</span></button>
                                     <ul class="c-header__menu-sub-list__depth-list">
