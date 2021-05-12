@@ -3,7 +3,7 @@ $(function(){
 
     const header = `
 
-	<header class="header">
+<header class="header">
         <div class="c-header" id="c-header">
             <div class="c-header__wrap">
                 <div class="c-header__logo">
