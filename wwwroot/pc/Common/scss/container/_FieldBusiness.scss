@@ -239,3 +239,11 @@
     }
 
 }
+
+[lang="en"] .field-business {
+    @include pc-only {
+        .l-main__sub-layout__menu-box {
+            padding-top: 198px;
+        }
+    }
+}

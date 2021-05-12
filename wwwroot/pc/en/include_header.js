@@ -3,20 +3,192 @@ $(function(){
 
     const header = `
 
-<header>
+	<header>
+	<div class="header">
+		<nav class="main-nav">
+			<ul class="main-nav__list">
+				<li class="main-nav__item" data-menuanchor="firstSection">
+					<a class="main-nav__item-anchors" href="#firstSection">
+						<span class="main-nav__item-tit">Main</span>
+					</a>
+				</li>
+				<li class="main-nav__item" data-menuanchor="secondSection">
+					<a class="main-nav__item-anchors" href="#secondSection">
+						<span class="main-nav__item-tit">Business</span>
+					</a>
+				</li>
+				<li class="main-nav__item" data-menuanchor="thirdSection">
+					<a class="main-nav__item-anchors" href="#thirdSection">
+						<span class="main-nav__item-tit">Global Network</span>
+					</a>
+				</li>
+				<li class="main-nav__item" data-menuanchor="fourthSection">
+					<a class="main-nav__item-anchors" href="#fourthSection">
+						<span class="main-nav__item-tit">News</span>
+					</a>
+				</li>
+			</ul>
+			<i class="main-nav__object"></i>
+		</nav>
+	</div>
 	<div class="c-header" id="c-header">
 		<div class="c-header__wrap">
 			<div class="c-header__logo">
 				<h1 class="c-header__logo-wrap">
-					<a href="/En/Default.aspx" class="c-header__logo-wrap__link">
-						<span class="c-header__logo-wrap__text">GS GLOBAL</span>
+					<a href="/Kr/Default.aspx" class="c-header__logo-wrap__link">
+						<span class="c-header__logo-wrap__text">GS 글로벌</span>
 					</a>
 				</h1>
 			</div>
 			<div class="c-header__menu" id="gnb">
-				<script type="text/javascript">
-					GetGnbMenu("gnb");
-				</script>
+				<ul class="c-header__menu-list">
+					<li class="c-header__menu-list__item"><a href="/En/Business/index.aspx"
+							class="c-header__menu-list__item-tit c-header__menu-list__item-tit-pc"><span>COMPANY</span></a>
+						<div class="c-header__menu-list__item-tit c-header__menu-list__item-tit-mo"><span>COMPANY</span>
+						</div>
+						<ul class="c-header__menu-sub-list">
+							<li class="c-header__menu-sub-list__item"><a href="/En/Business/Outline.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>Corporate Overview</span></a></li>
+							<li class="c-header__menu-sub-list__item"><a href="/En/Business/Greeting.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>CEO’s Message</span></a></li>
+							<li class="c-header__menu-sub-list__item"><a href="/En/Business/ManagementPhilosophy.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>Corporate Principles</span></a></li>
+							<li class="c-header__menu-sub-list__item"><a href="/En/Business/History.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>Corporate History</span></a></li>
+							<li class="c-header__menu-sub-list__item"><a href="/En/Business/Management.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>Ethics Management</span></a></li>
+							<li class="c-header__menu-sub-list__item"><a href="/En/Business/GlobalNetworkWordWide.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>Global Network</span></a></li>
+							<li class="c-header__menu-sub-list__item"><a href="/En/Business/Directions.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>Location</span></a></li>
+						</ul>
+					</li>
+					<li class="c-header__menu-list__item"><a href="/En/FieldBusiness/index.aspx"
+							class="c-header__menu-list__item-tit c-header__menu-list__item-tit-pc"><span>BUSINESS</span></a>
+						<div class="c-header__menu-list__item-tit c-header__menu-list__item-tit-mo">
+							<span>BUSINESS</span></div>
+						<ul class="c-header__menu-sub-list">
+							<li class="c-header__menu-sub-list__item"><a href="/En/FieldBusiness/Trading/Steel.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>Trading</span></a><button
+									class="c-header__menu-sub-list__depth-btn" type="button"><span
+										class="c-header__menu-sub-list__depth-btn__text">더보기</span></button>
+								<ul class="c-header__menu-sub-list__depth-list">
+									<li class="c-header__menu-sub-list__depth-list__item"><a
+											href="/En/FieldBusiness/Trading/Steel.aspx"
+											class="c-header__menu-sub-list__depth-list-item-tit"><span>Steel</span></a>
+									</li>
+									<li class="c-header__menu-sub-list__depth-list__item"><a
+											href="/En/FieldBusiness/Trading/PetroleumProduct.aspx"
+											class="c-header__menu-sub-list__depth-list-item-tit"><span>Petroleum &amp;
+												Chemicals</span></a></li>
+									<li class="c-header__menu-sub-list__depth-list__item"><a
+											href="/En/FieldBusiness/Trading/ResourcesCoal.aspx"
+											class="c-header__menu-sub-list__depth-list-item-tit"><span>Coal &amp;
+												Biomass</span></a></li>
+									<li class="c-header__menu-sub-list__depth-list__item"><a
+											href="/En/FieldBusiness/Trading/MachineGoods.aspx"
+											class="c-header__menu-sub-list__depth-list-item-tit"><span>Industrial
+												Products</span></a></li>
+								</ul>
+							</li>
+							<li class="c-header__menu-sub-list__item"><a
+									href="/En/FieldBusiness/Operation/Logistics.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>Operation</span></a><button
+									class="c-header__menu-sub-list__depth-btn" type="button"><span
+										class="c-header__menu-sub-list__depth-btn__text">더보기</span></button>
+								<ul class="c-header__menu-sub-list__depth-list">
+									<li class="c-header__menu-sub-list__depth-list__item"><a
+											href="/En/FieldBusiness/Operation/Logistics.aspx"
+											class="c-header__menu-sub-list__depth-list-item-tit"><span>Logistics</span></a>
+									</li>
+									<li class="c-header__menu-sub-list__depth-list__item"><a
+											href="/En/FieldBusiness/Operation/GsEntec.aspx"
+											class="c-header__menu-sub-list__depth-list-item-tit"><span>GS
+												Entec</span></a></li>
+									<li class="c-header__menu-sub-list__depth-list__item"><a
+											href="/En/FieldBusiness/Operation/Robotics.aspx"
+											class="c-header__menu-sub-list__depth-list-item-tit"><span>Robotics</span></a>
+									</li>
+									<li class="c-header__menu-sub-list__depth-list__item"><a
+											href="/En/FieldBusiness/Operation/EVbusiness.aspx"
+											class="c-header__menu-sub-list__depth-list-item-tit"><span>e-Mobility</span></a>
+									</li>
+								</ul>
+							</li>
+							<li class="c-header__menu-sub-list__item"><a
+									href="/En/FieldBusiness/Investment/SocBusiness.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>Investment</span></a><button
+									class="c-header__menu-sub-list__depth-btn" type="button"><span
+										class="c-header__menu-sub-list__depth-btn__text">더보기</span></button>
+								<ul class="c-header__menu-sub-list__depth-list">
+									<li class="c-header__menu-sub-list__depth-list__item"><a
+											href="/En/FieldBusiness/Investment/SocBusiness.aspx"
+											class="c-header__menu-sub-list__depth-list-item-tit"><span>SOC Development
+												Business</span></a></li>
+									<li class="c-header__menu-sub-list__depth-list__item"><a
+											href="/En/FieldBusiness/Investment/ProjectBusiness.aspx"
+											class="c-header__menu-sub-list__depth-list-item-tit"><span>Project
+												Development</span></a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="c-header__menu-list__item"><a href="/En/IrInfo/index.aspx"
+							class="c-header__menu-list__item-tit c-header__menu-list__item-tit-pc"><span>INVESTOR
+								RELATIONS</span></a>
+						<div class="c-header__menu-list__item-tit c-header__menu-list__item-tit-mo"><span>INVESTOR
+								RELATIONS</span></div>
+						<ul class="c-header__menu-sub-list">
+							<li class="c-header__menu-sub-list__item"><a
+									href="/En/IrInfo/Management/BoardOfDirectors.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>Management
+										Information</span></a><button class="c-header__menu-sub-list__depth-btn"
+									type="button"><span
+										class="c-header__menu-sub-list__depth-btn__text">더보기</span></button>
+								<ul class="c-header__menu-sub-list__depth-list">
+									<li class="c-header__menu-sub-list__depth-list__item"><a
+											href="/En/IrInfo/Management/BoardOfDirectors.aspx"
+											class="c-header__menu-sub-list__depth-list-item-tit"><span>Board of
+												Directors</span></a></li>
+									<li class="c-header__menu-sub-list__depth-list__item"><a
+											href="/En/IrInfo/Management/StockHolder.aspx"
+											class="c-header__menu-sub-list__depth-list-item-tit"><span>Shareholders</span></a>
+									</li>
+								</ul>
+							</li>
+							<li class="c-header__menu-sub-list__item"><a href="/En/IrInfo/StockInfo.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>Stock Information</span></a></li>
+							<li class="c-header__menu-sub-list__item"><a href="/En/IrInfo/FinancialInfo5Years.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>Financial Statements</span></a></li>
+							<li class="c-header__menu-sub-list__item"><a href="/En/IrInfo/IRList.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>IR Library</span></a></li>
+						</ul>
+					</li>
+					<li class="c-header__menu-list__item"><a href="/En/CompanyNews/index.aspx"
+							class="c-header__menu-list__item-tit c-header__menu-list__item-tit-pc"><span>NEWS</span></a>
+						<div class="c-header__menu-list__item-tit c-header__menu-list__item-tit-mo"><span>NEWS</span>
+						</div>
+						<ul class="c-header__menu-sub-list">
+							<li class="c-header__menu-sub-list__item"><a href="/En/CompanyNews/News.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>News</span></a></li>
+							<li class="c-header__menu-sub-list__item"><a href="/En/CompanyNews/SocialContribution.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>CSR</span></a></li>
+							<li class="c-header__menu-sub-list__item"><a href="/En/CompanyNews/PromotionalMaterial.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>Brochure</span></a></li>
+						</ul>
+					</li>
+					<li class="c-header__menu-list__item"><a href="/En/Recruit/TalentVision.aspx"
+							class="c-header__menu-list__item-tit c-header__menu-list__item-tit-pc"><span>CAREERS</span></a>
+						<div class="c-header__menu-list__item-tit c-header__menu-list__item-tit-mo"><span>CAREERS</span>
+						</div>
+						<ul class="c-header__menu-sub-list">
+							<li class="c-header__menu-sub-list__item"><a href="/En/Recruit/TalentVision.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>HR Management</span></a></li>
+							<li class="c-header__menu-sub-list__item"><a href="/En/Recruit/JobOpening.aspx"
+									class="c-header__menu-sub-list__item-tit"><span>Recruit Information</span></a></li>
+						</ul>
+					</li>
+				</ul>
 				<div class="c-header__menu-utility">
 					<div class="c-header__menu-utility-list c-header__menu-utility--contact-us">
 						<a href="/En/ContactUs/ContactUs.aspx" class="c-header__menu-utility-list__item">
@@ -44,10 +216,10 @@ $(function(){
 			</div>
 			<div class="c-header__hambuger">
 				<button type="button" class="c-header__hambuger-item c-header__hambuger-item--all-menu">
-					<span class="c-header__hambuger-item__txt">ALL MENU</span>
+					<span class="c-header__hambuger-item__txt">전체메뉴</span>
 				</button>
 				<button type="button" class="c-header__hambuger-item c-header__hambuger-item-mobile-menu">
-					<span class="c-header__hambuger-item__txt">MENU</span>
+					<span class="c-header__hambuger-item__txt">메뉴</span>
 					<i class="c-header__hambuger-object c-header__hambuger-object-01"></i>
 					<i class="c-header__hambuger-object c-header__hambuger-object-02"></i>
 					<i class="c-header__hambuger-object c-header__hambuger-object-03"></i>
@@ -56,130 +228,124 @@ $(function(){
 					<div class="c-header__all-menu__list-area">
 						<div class="c-header__all-menu__list-area__wrap">
 							<div class='c-header__all-menu__list'>
-								<div class='c-header__all-menu__list-tit'><a href=/En/Business/index.aspx>COMPANY</a>
-								</div>
+								<div class='c-header__all-menu__list-tit'><a href=/Kr/Business/index.aspx>기업정보</a></div>
 								<div class='c-header__all-menu__list-subcont'>
 									<div class='c-header__all-menu__subcont-list'>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/Business/Outline.aspx'>Corporate Overview</a></div>
+												href='/Kr/Business/Outline.aspx'>개요</a></div>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/Business/Greeting.aspx'>CEO’s Message</a></div>
+												href='/Kr/Business/Greeting.aspx'>CEO 인사말</a></div>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/Business/ManagementPhilosophy.aspx'>Corporate Principles</a>
-										</div>
+												href='/Kr/Business/ManagementPhilosophy.aspx'>경영이념</a></div>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/Business/History.aspx'>Corporate History</a></div>
+												href='/Kr/Business/History.aspx'>연혁</a></div>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/Business/Management.aspx'>Ethics Management</a></div>
+												href='/Kr/Business/Management.aspx'>윤리경영</a></div>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/Business/GlobalNetworkWordWide.aspx'>Global Network</a></div>
+												href='/Kr/Business/GlobalNetworkWordWide.aspx'>글로벌 네트워크</a></div>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/Business/Directions.aspx'>Location</a></div>
+												href='/Kr/Business/Directions.aspx'>찾아오시는 길</a></div>
 									</div>
 								</div>
 							</div>
 							<div class='c-header__all-menu__list'>
-								<div class='c-header__all-menu__list-tit'><a
-										href=/En/FieldBusiness/index.aspx>BUSINESS</a></div>
+								<div class='c-header__all-menu__list-tit'><a href=/Kr/FieldBusiness/index.aspx>사업분야</a>
+								</div>
 								<div class='c-header__all-menu__list-subcont'>
 									<div class='c-header__all-menu__subcont-list'>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/FieldBusiness/Trading/Steel.aspx'>Trading</a>
+												href='/Kr/FieldBusiness/Trading/Steel.aspx'>Trading</a>
 											<div class='c-header__all-menu__dethcont-list'>
 												<div class='c-header__all-menu__dethcont__item'><a
-														href='/En/FieldBusiness/Trading/Steel.aspx'>Steel</a></div>
+														href='/Kr/FieldBusiness/Trading/Steel.aspx'>철강</a></div>
 												<div class='c-header__all-menu__dethcont__item'><a
-														href='/En/FieldBusiness/Trading/PetroleumProduct.aspx'>Petroleum
-														& Chemicals</a></div>
-												<div class='c-header__all-menu__dethcont__item'><a
-														href='/En/FieldBusiness/Trading/ResourcesCoal.aspx'>Coal &
-														Biomass</a></div>
-												<div class='c-header__all-menu__dethcont__item'><a
-														href='/En/FieldBusiness/Trading/MachineGoods.aspx'>Industrial
-														Products</a></div>
-											</div>
-										</div>
-										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/FieldBusiness/Operation/Logistics.aspx'>Operation</a>
-											<div class='c-header__all-menu__dethcont-list'>
-												<div class='c-header__all-menu__dethcont__item'><a
-														href='/En/FieldBusiness/Operation/Logistics.aspx'>Logistics</a>
+														href='/Kr/FieldBusiness/Trading/PetroleumProduct.aspx'>석유화학</a>
 												</div>
 												<div class='c-header__all-menu__dethcont__item'><a
-														href='/En/FieldBusiness/Operation/GsEntec.aspx'>GS Entec</a>
-												</div>
+														href='/Kr/FieldBusiness/Trading/ResourcesCoal.aspx'>자원</a></div>
 												<div class='c-header__all-menu__dethcont__item'><a
-														href='/En/FieldBusiness/Operation/Robotics.aspx'>Robotics</a>
-												</div>
-												<div class='c-header__all-menu__dethcont__item'><a
-														href='/En/FieldBusiness/Operation/EVbusiness.aspx'>e-Mobility</a>
+														href='/Kr/FieldBusiness/Trading/MachineGoods.aspx'>기계/물자</a>
 												</div>
 											</div>
 										</div>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/FieldBusiness/Investment/SocBusiness.aspx'>Investment</a>
+												href='/Kr/FieldBusiness/Operation/Logistics.aspx'>Operation</a>
 											<div class='c-header__all-menu__dethcont-list'>
 												<div class='c-header__all-menu__dethcont__item'><a
-														href='/En/FieldBusiness/Investment/SocBusiness.aspx'>SOC
-														Development Business</a></div>
+														href='/Kr/FieldBusiness/Operation/Logistics.aspx'>물류사업</a></div>
 												<div class='c-header__all-menu__dethcont__item'><a
-														href='/En/FieldBusiness/Investment/ProjectBusiness.aspx'>Project
-														Development</a></div>
+														href='/Kr/FieldBusiness/Operation/GsEntec.aspx'>GS엔텍</a></div>
+												<div class='c-header__all-menu__dethcont__item'><a
+														href='/Kr/FieldBusiness/Operation/Robotics.aspx'>Robotics</a>
+												</div>
+												<div class='c-header__all-menu__dethcont__item'><a
+														href='/Kr/FieldBusiness/Operation/EVbusiness.aspx'>e모빌리티</a>
+												</div>
+											</div>
+										</div>
+										<div class='c-header__all-menu__subcont__item'><a
+												href='/Kr/FieldBusiness/Investment/SocBusiness.aspx'>Investment</a>
+											<div class='c-header__all-menu__dethcont-list'>
+												<div class='c-header__all-menu__dethcont__item'><a
+														href='/Kr/FieldBusiness/Investment/SocBusiness.aspx'>SOC사업</a>
+												</div>
+												<div class='c-header__all-menu__dethcont__item'><a
+														href='/Kr/FieldBusiness/Investment/ProjectBusiness.aspx'>프로젝트
+														사업</a></div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class='c-header__all-menu__list'>
-								<div class='c-header__all-menu__list-tit'><a href=/En/IrInfo/index.aspx>INVESTOR
-										RELATIONS</a></div>
+								<div class='c-header__all-menu__list-tit'><a href=/Kr/IrInfo/index.aspx>투자정보</a></div>
 								<div class='c-header__all-menu__list-subcont'>
 									<div class='c-header__all-menu__subcont-list'>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/IrInfo/Management/BoardOfDirectors.aspx'>Management
-												Information</a>
+												href='/Kr/IrInfo/Notice.aspx'>공고</a></div>
+										<div class='c-header__all-menu__subcont__item'><a
+												href='/Kr/IrInfo/OfficialNotice.aspx'>공시정보</a></div>
+										<div class='c-header__all-menu__subcont__item'><a
+												href='/Kr/IrInfo/Management/BoardOfDirectors.aspx'>경영정보</a>
 											<div class='c-header__all-menu__dethcont-list'>
 												<div class='c-header__all-menu__dethcont__item'><a
-														href='/En/IrInfo/Management/BoardOfDirectors.aspx'>Board of
-														Directors</a></div>
+														href='/Kr/IrInfo/Management/BoardOfDirectors.aspx'>이사회</a></div>
 												<div class='c-header__all-menu__dethcont__item'><a
-														href='/En/IrInfo/Management/StockHolder.aspx'>Shareholders</a>
-												</div>
+														href='/Kr/IrInfo/Management/StockHolder.aspx'>주주현황</a></div>
 											</div>
 										</div>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/IrInfo/StockInfo.aspx'>Stock Information</a></div>
+												href='/Kr/IrInfo/StockInfo.aspx'>주식정보</a></div>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/IrInfo/FinancialInfo5Years.aspx'>Financial Statements</a>
-										</div>
+												href='/Kr/IrInfo/FinancialInfo5Years.aspx'>재무정보</a></div>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/IrInfo/IRList.aspx'>IR Library</a></div>
+												href='/Kr/IrInfo/IRList.aspx'>IR 자료실</a></div>
 									</div>
 								</div>
 							</div>
 							<div class='c-header__all-menu__list'>
-								<div class='c-header__all-menu__list-tit'><a href=/En/CompanyNews/index.aspx>NEWS</a>
+								<div class='c-header__all-menu__list-tit'><a href=/Kr/CompanyNews/index.aspx>회사소식</a>
 								</div>
 								<div class='c-header__all-menu__list-subcont'>
 									<div class='c-header__all-menu__subcont-list'>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/CompanyNews/News.aspx'>News</a></div>
+												href='/Kr/CompanyNews/News.aspx'>News</a></div>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/CompanyNews/SocialContribution.aspx'>CSR</a></div>
+												href='/Kr/CompanyNews/SocialContribution.aspx'>사회공헌</a></div>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/CompanyNews/PromotionalMaterial.aspx'>Brochure</a></div>
+												href='/Kr/CompanyNews/PromotionalMaterial.aspx'>홍보자료</a></div>
 									</div>
 								</div>
 							</div>
 							<div class='c-header__all-menu__list'>
-								<div class='c-header__all-menu__list-tit'><a
-										href=/En/Recruit/TalentVision.aspx>CAREERS</a></div>
+								<div class='c-header__all-menu__list-tit'><a href=/Kr/Recruit/TalentVision.aspx>채용정보</a>
+								</div>
 								<div class='c-header__all-menu__list-subcont'>
 									<div class='c-header__all-menu__subcont-list'>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/Recruit/TalentVision.aspx'>HR Management</a></div>
+												href='/Kr/Recruit/TalentVision.aspx'>인재경영</a></div>
 										<div class='c-header__all-menu__subcont__item'><a
-												href='/En/Recruit/JobOpening.aspx'>Recruit Information</a></div>
+												href='https://gsgcorp.recruiter.co.kr/app/jobnotice/list'>채용공고</a></div>
 									</div>
 								</div>
 							</div>
@@ -187,7 +353,6 @@ $(function(){
 					</div>
 				</div>
 			</div>
-
 		</div>
 		<span class="c-header__container-bg"></span>
 	</div>
