@@ -5,31 +5,7 @@ $(function(){
 
 	<header>
 	<div class="header">
-		<nav class="main-nav">
-			<ul class="main-nav__list">
-				<li class="main-nav__item" data-menuanchor="firstSection">
-					<a class="main-nav__item-anchors" href="#firstSection">
-						<span class="main-nav__item-tit">Main</span>
-					</a>
-				</li>
-				<li class="main-nav__item" data-menuanchor="secondSection">
-					<a class="main-nav__item-anchors" href="#secondSection">
-						<span class="main-nav__item-tit">Business</span>
-					</a>
-				</li>
-				<li class="main-nav__item" data-menuanchor="thirdSection">
-					<a class="main-nav__item-anchors" href="#thirdSection">
-						<span class="main-nav__item-tit">Global Network</span>
-					</a>
-				</li>
-				<li class="main-nav__item" data-menuanchor="fourthSection">
-					<a class="main-nav__item-anchors" href="#fourthSection">
-						<span class="main-nav__item-tit">News</span>
-					</a>
-				</li>
-			</ul>
-			<i class="main-nav__object"></i>
-		</nav>
+		
 	</div>
 	<div class="c-header" id="c-header">
 		<div class="c-header__wrap">
