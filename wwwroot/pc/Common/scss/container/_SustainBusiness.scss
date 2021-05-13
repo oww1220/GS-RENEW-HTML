@@ -22,6 +22,22 @@
     }
     .l-main__sub-layout__menu-box__item-tit {
         font-weight: 400;
+        font-size: 20px;
+    }
+    @include tab {
+        .l-main__sub-layout__menu-box__item-tit {
+            font-size: 16px;
+        }
+    }
+    @include mob-mid {
+        .l-main__sub-layout__menu-box__item-tit {
+            font-size: 13px;
+        }
+    }
+    @include mob-small {
+        .l-main__sub-layout__menu-box__item-tit {
+            font-size: 11px;
+        }
     }
 
     .c-subvisual {
