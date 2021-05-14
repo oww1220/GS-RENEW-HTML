@@ -184,6 +184,13 @@
         }
     }
 
+    @include mob-large {
+        .l-main__sub-layout__menu-box__item:first-child+.l-main__sub-layout__menu-box__item {
+            margin-right: 0;
+        }
+        
+    }
+
     .l-main__sub-layout__info-tit {
         font-weight: 400;
     }
