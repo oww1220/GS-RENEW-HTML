@@ -140,6 +140,10 @@ $(function(){
                                             href="/Kr/IrInfo/Management/StockHolder.aspx"
                                             class="c-header__menu-sub-list__depth-list-item-tit"><span>주주현황</span></a>
                                     </li>
+                                    <li class="c-header__menu-sub-list__depth-list__item"><a
+                                            href="/Kr/IrInfo/Management/StockHolder.aspx"
+                                            class="c-header__menu-sub-list__depth-list-item-tit"><span>기업지배구조헌장</span></a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="c-header__menu-sub-list__item"><a href="/Kr/IrInfo/StockInfo.aspx"
