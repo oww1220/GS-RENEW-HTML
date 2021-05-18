@@ -3821,9 +3821,9 @@ html * {
 		/* line 100, src/common/scss/package/04-c-header.scss */
 		.c-header__menu-list:hover:before {
 				opacity: 1;
-				min-height: 324px;
+				min-height: 354px;
 				transition: opacity 0.3s linear 0.2s,
- min-height 0.3s linear 0.2s;
+ 				min-height 0.3s linear 0.2s;
 		}
 		/* line 106, src/common/scss/package/04-c-header.scss */
 		.c-header__menu-list:hover .c-header__menu-sub-list {
