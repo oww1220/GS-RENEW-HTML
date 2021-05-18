@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title></title>
+
+    <link type="text/css" rel="stylesheet" href="../../Common/Css/base.css">
+    <link type="text/css" rel="stylesheet" href="../../Common/Css/content.css">
+    <link type="text/css" rel="stylesheet" href="../../Common/Css/jquery-ui.css">
+    <link type="text/css" rel="stylesheet" href="../../Common/Css/jquery.fullpage.css">
+    <link type="text/css" rel="stylesheet" href="../../Common/Css/slick.css">
+    <link type="text/css" rel="stylesheet" href="../../Common/Css/style.css">
+    <link type="text/css" rel="stylesheet" href="../../Common/Css/swiper.min.css">
+
+    <script src="../../Common/script/lib/jqeury/jquery-3.3.1.min.js"></script>
+    <script src="../../Common/script/lib/header.js"></script>
+    <script src="../../Common/script/lib/ui.js"></script>
+    <script src="../../Common/script/Common.js"></script>
+    <script src="../../Common/script/KrMenu.js"></script>
+    <script src="../../Common/script/FormValidation.js"></script>
+    <script src="../include_header.js"></script>
+    <script src="../include_footer.js"></script>
+
+</head>
+
+<body>
+
+    <header class="header"></header>
+
+    <main class="l-main company-support">
+        <div class="c-subvisual">
+            <div class="c-subvisual__wrap c-subvisual__type-A">
+                <h2 class="c-subvisual__tite">기업정보</h2>
+                <p class="c-subvisual__tite-desc">Value No.1 Solution Provider, GS Global</p>
+            </div>
+        </div>
+        <div class="m-breadcrumb">
+            <nav class="m-breadcrumb__nav">
+                <ul class="m-breadcrumb__list">
+                    <li class="m-breadcrumb__item">
+                        <a class="cells m-breadcrumb__cells" href="/Kr/Default.aspx">
+                            <span class="cells__cell m-breadcrumb__contents">
+                                홈
+                                <i class="m-icon m-icon__home"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="m-breadcrumb__item">
+                        <div class="cells m-breadcrumb__cells">
+                            <div class="m-select__wrap">
+                                <div class="m-select__view"><span class="m-select__label">기업정보</span><i
+                                        class="m-icon m-icon__select"></i></div>
+                                <div class="m-select__view-list">
+                                    <ul class="m-select__view-list__wrap">
+                                        <li class="m-select__view-list__item" data-index="0" value="/kr/business/index.aspx">기업정보</li>
+                                        <li class="m-select__view-list__item" data-index="1" value="/kr/fieldbusiness/index.aspx">사업분야
+                                        </li>
+                                        <li class="m-select__view-list__item" data-index="2" value="/kr/irinfo/index.aspx">투자정보</li>
+                                        <li class="m-select__view-list__item" data-index="3" value="/kr/companynews/index.aspx">회사소식
+                                        </li>
+                                        <li class="m-select__view-list__item" data-index="4" value="/kr/recruit/talentvision.aspx">채용정보
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="m-breadcrumb__item m-breadcrumb__item-last">
+                        <div class="cells m-breadcrumb__cells">
+                            <div class="m-select__wrap">
+                                <div class="m-select__view"><span class="m-select__label">News</span><i class="m-icon m-icon__select"></i></div>
+                                <div class="m-select__view-list">
+                                    <ul class="m-select__view-list__wrap">
+                                        <li class="m-select__view-list__item" data-index="0" value="/kr/business/outline.aspx">개요</li>
+                                        <li class="m-select__view-list__item" data-index="1" value="/kr/business/greeting.aspx">CEO 인사말</li>
+                                        <li class="m-select__view-list__item" data-index="2" value="/kr/business/managementphilosophy.aspx">경영이념
+                                        </li>
+                                        <li class="m-select__view-list__item" data-index="3" value="/kr/business/history.aspx">연혁</li>
+                                        <li class="m-select__view-list__item" data-index="5" value="/kr/business/globalnetworkwordwide.aspx">글로벌
+                                            네트워크</li>
+                                        <li class="m-select__view-list__item" data-index="6" value="/kr/business/directions.aspx">찾아오시는 길</li>
+                                        <li class="m-select__view-list__item" data-index="4" value="/kr/business/management.aspx">News</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="l-content__wrap l-content__wrap-tight">
+            <h3 class="m-title__list m-title__style-default">
+                <span class="m-title__style-text"><b>News</b></span>
+            </h3>
+            <div class="m-top-desc">
+                <div class="m-top-desc">
+                    <div class="m-top-desc__wrap m-top-desc__wrap-list-top">
+                        <div class="content__position-left m-top-desc__text-pc">
+                            <div class="m-top-desc__text">
+                                총
+                                <strong class="o-pointcolor-01">69</strong> 건의 게시물이 있습니다.
+                            </div>
+                        </div>
+                        <div class="content__position-above">
+                            <div class="m-top-desc__wrap-item m-select__wrap ">
+                                <div class="m-select__wrap-box">
+                                    <select class="m-select__wrap-box__select" id="ddlSearchField" name="ddlSearchField">
+                                        <option value="0" selected="selected">전체</option>
+                                        <option value="1">제목</option>
+                                        <option value="2">내용</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="m-top-desc__wrap-item m-input-wrap">
+                                <fieldset>
+                                    <legend>검색어 입력</legend>
+                                    <label class="m-input-label">
+                                        <input type="text" class="m-input__item" title="검색어 입력" placeholder="검색어를 입력하세요." name="txtSearchText" id="txtSearchText" value="" onkeypress="return IsEnterCheck(event,'btnSearch');">
+                                    </label>
+                                </fieldset>
+                            </div>
+                            <div class="m-top-desc__wrap-item">
+                                <button class="m-btn m-btn--bule m-btn--s" onclick="GetNews();return false;" id="btnSearch" type="button">
+                                    <span class="m-btn-text">검색</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <acticle class="m-newsfeed__wrap">
+                <ul class="m-newsfeed__list">
+                    
+                            <li class="m-newsfeed__head">
+                                <a href="http://www.kmaeil.com/news/articleView.html?idxno=264094" target="_blank" class="m-newsfeed__head-wrap">
+                                    <div class="m-newsfeed__sub-item m-newsfeed__time">
+                                        <time lang="en" datetime="2021-02-03">
+                                            <b class="m-newsfeed__time-day">02.03</b>
+                                            <span class="m-newsfeed__time-other">2021</span>
+                                        </time>
+                                    </div>
+                                    <div class="m-newsfeed__sub-item m-newsfeed__content">
+                                        <div class="m-newsfeed__content-info">
+                                            <h3 class="m-newsfeed-tit">
+                                                <span>『사랑의 이웃돕기』 ㈜GS글로벌, 성금 500만원(GS상품권 500매)</span>
+                                            </h3>
+                                            <div class="m-newsfeed-desc">
+                                                <span class="m-newsfeed-desc__text">
+                                                    ㈜GS글로벌은 지난 2일 평택시청 대외협력실에서 어려운 이웃에게 써달라며 500만원 상당의 GS칼텍스 상품권(1만원권 500장)을 기탁했다. 
+
+㈜GS글로벌은 평택당진항 2-1단계 항만배우단지 조성시행사업자로 평택항 일대 단지를 조성 중이며 ‘고객과 함께 내일을 꿈꾸며 새로운 삶의 가치를 창조한다’라는 경영이념 아래 임직원 모두가 합심하여 더 좋은 회사를 만들기 위해 노력하고 있으며 그에 상응하고자 2014년부터 매년 2차례 꾸준히 나눔을 실천 중이다. 
+
+㈜GS글로벌 관계자는 “코로나19로 더욱 춥게 느껴지는 올해 명절에 상품권이 좀 더 뜻깊게 사용되었으면 좋겠으며, 앞으로도 지속적으로 지역사회에 나눔문화 확산과 이웃사랑 실천을 위해 더욱 노력하겠다”고 전했다.
+
+정장선 평택시장은 “잊지 않고 매년 명절 두 차례 어려운 이웃에게 따뜻한 정을 베풀어 주시는 ㈜GS글로벌에 감사드리며, 기부해 주신 상품권은 생활이 어려운 취약가정에 전달해 소중하게 사용하겠다”고 밝혔다.
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                            <li class="m-newsfeed__head">
+                                <a href="https://news.joins.com/article/23934222" target="_blank" class="m-newsfeed__head-wrap">
+                                    <div class="m-newsfeed__sub-item m-newsfeed__time">
+                                        <time lang="en" datetime="2020-12-01">
+                                            <b class="m-newsfeed__time-day">12.01</b>
+                                            <span class="m-newsfeed__time-other">2020</span>
+                                        </time>
+                                    </div>
+                                    <div class="m-newsfeed__sub-item m-newsfeed__content">
+                                        <div class="m-newsfeed__content-info">
+                                            <h3 class="m-newsfeed-tit">
+                                                <span>‘해외시장 진출 위해’ 네이버클라우드 GS글로벌과 협력</span>
+                                            </h3>
+                                            <div class="m-newsfeed-desc">
+                                                <span class="m-newsfeed-desc__text">
+                                                    네이버클라우드가 해외 시장 확대를 위해 GS글로벌과 업무협약을 체결했다.
+
+1일 네이버클라우드와 GS글로벌은 먼저 동남아시아 클라우드 시장 진출에 협력하기로 했다.
+ 
+GS글로벌은 시장 상황 파악, 시장 개척, 해외 고객 발굴 등으로 네이버클라우드가 진출할 판로를 닦는다.
+
+[출처: 중앙일보] ‘해외시장 진출 위해’ 네이버클라우드 GS글로벌과 협력
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                            <li class="m-newsfeed__head">
+                                <a href="http://news.kbs.co.kr/news/view.do?ncd=5012247&amp;ref=A" target="_blank" class="m-newsfeed__head-wrap">
+                                    <div class="m-newsfeed__sub-item m-newsfeed__time">
+                                        <time lang="en" datetime="2020-09-24">
+                                            <b class="m-newsfeed__time-day">09.24</b>
+                                            <span class="m-newsfeed__time-other">2020</span>
+                                        </time>
+                                    </div>
+                                    <div class="m-newsfeed__sub-item m-newsfeed__content">
+                                        <div class="m-newsfeed__content-info">
+                                            <h3 class="m-newsfeed-tit">
+                                                <span>GS글로벌, 새만금국가산단에 투자…‘특장센터 설립’</span>
+                                            </h3>
+                                            <div class="m-newsfeed-desc">
+                                                <span class="m-newsfeed-desc__text">
+                                                    최근 SK 컨소시엄이 새만금에 2조 원을 들여 데이터센터와 창업클러스터를 구축하기로 한 데 이어, 국내 종합상사인 GS글로벌도 새만금에 특장센터를 짓습니다. GS 글로벌은 오는 2023년까지 새만금국가산업단지에 5백65억 원을 투자해 전기버스와 전기 트럭 등 상용차 조립과 생산, 전기차 배터리 패키징을 하는 'GS글로벌 새만금 특장센터'를 지을 계획입니다. 이를 위해 올해 안에 입주계약을 맺은 뒤 내년에 착공하고, 2백10명을 채용할 계획입니다.
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                            <li class="m-newsfeed__head">
+                                <a href="http://www.weeklytoday.com/news/articleView.html?idxno=309373" target="_blank" class="m-newsfeed__head-wrap">
+                                    <div class="m-newsfeed__sub-item m-newsfeed__time">
+                                        <time lang="en" datetime="2020-09-21">
+                                            <b class="m-newsfeed__time-day">09.21</b>
+                                            <span class="m-newsfeed__time-other">2020</span>
+                                        </time>
+                                    </div>
+                                    <div class="m-newsfeed__sub-item m-newsfeed__content">
+                                        <div class="m-newsfeed__content-info">
+                                            <h3 class="m-newsfeed-tit">
+                                                <span>㈜GS글로벌, '사랑의 이웃돕기'상품권 500만원 기탁</span>
+                                            </h3>
+                                            <div class="m-newsfeed-desc">
+                                                <span class="m-newsfeed-desc__text">
+                                                    ㈜GS글로벌은 지난 17일 평택시를 방문해 어려운 이웃에게 써달라며 500만원 상당의 GS칼텍스 상품권을 기탁했다. ㈜GS글로벌 "추석 명절을 앞두고 코로나19로 어려움을 겪고 있는 이웃들에게 따뜻한 손길이 전달되길 바란다"고 전했다.
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                            <li class="m-newsfeed__head">
+                                <a href="https://www.theguru.co.kr/news/article.html?no=14331" target="_blank" class="m-newsfeed__head-wrap">
+                                    <div class="m-newsfeed__sub-item m-newsfeed__time">
+                                        <time lang="en" datetime="2020-09-21">
+                                            <b class="m-newsfeed__time-day">09.21</b>
+                                            <span class="m-newsfeed__time-other">2020</span>
+                                        </time>
+                                    </div>
+                                    <div class="m-newsfeed__sub-item m-newsfeed__content">
+                                        <div class="m-newsfeed__content-info">
+                                            <h3 class="m-newsfeed-tit">
+                                                <span>GS글로벌, 中 태양광 업체 '한국 진출' 돕는다</span>
+                                            </h3>
+                                            <div class="m-newsfeed-desc">
+                                                <span class="m-newsfeed-desc__text">
+                                                    S글로벌이 독일에 이어 중국 태양광 업체와 국내 신재생에너지 시장 진출에 협력한다. 안타이솔라(Antaisolar)의 태양광 제품을 국내에 선보이고 무역 사업을 확대한다. 21일 업계에 따르면 GS글로벌은 지난 16일(현지시간) 안타이솔라와 한국 시장에서 태양광 제품 판매에 협력하기 위한 전략적 파트너십을 맺었다. 체결식은 중국 푸젠성 샤먼시 소재 안타이 솔라 본사에서 열렸으며 김광호 GS글로벌 상해지사장과 쟈스민 후앙(.Jasmine Huang) 안타이솔라 사장이 참여했다.
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                </ul>
+                <ul class="m-newsfeed__list  m-newsfeed__list-default" style="display:none">
+                        <li class="m-newsfeed__head">
+                            게시글이 없습니다.
+                        </li>
+                    </ul>
+
+                <div class="m-page-btn-wrap" style="display:">
+                    <!--?xml version="1.0" encoding="utf-8"?-->
+                    <a href="#pg" class="m-btn m-btn--line-gray m-paging m-paging-first" style="display: none;">
+                    <i class="m-icon m-icon__arrow-paging__double left">
+                    </i>
+                    </a>
+                    <a href="/Kr/CompanyNews/News.aspx?page=0&amp;searchField=0&amp;searchText=" class="m-btn m-btn--line-gray m-paging m-paging-prev" style="display: none;">
+                    <i class="m-icon m-icon__arrow-paging left">
+                    </i>
+                    </a>
+                    <div class="m-paging__wrap-num">
+                    <a href="#" class="target">1</a>
+                    <a href="/Kr/CompanyNews/News.aspx?page=2&amp;searchField=0&amp;searchText=">2</a>
+                    <a href="/Kr/CompanyNews/News.aspx?page=3&amp;searchField=0&amp;searchText=">3</a>
+                    <a href="/Kr/CompanyNews/News.aspx?page=4&amp;searchField=0&amp;searchText=">4</a>
+                    <a href="/Kr/CompanyNews/News.aspx?page=5&amp;searchField=0&amp;searchText=">5</a>
+                    <a href="/Kr/CompanyNews/News.aspx?page=6&amp;searchField=0&amp;searchText=">6</a>
+                    <a href="/Kr/CompanyNews/News.aspx?page=7&amp;searchField=0&amp;searchText=">7</a>
+                    <a href="/Kr/CompanyNews/News.aspx?page=8&amp;searchField=0&amp;searchText=">8</a>
+                    <a href="/Kr/CompanyNews/News.aspx?page=9&amp;searchField=0&amp;searchText=">9</a>
+                    <a href="/Kr/CompanyNews/News.aspx?page=10&amp;searchField=0&amp;searchText=">10</a>
+                    </div>
+                    <a href="/Kr/CompanyNews/News.aspx?page=2&amp;searchField=0&amp;searchText=" class="m-btn m-btn--line-gray m-paging m-paging-next">
+                    <i class="m-icon m-icon__arrow-paging right">
+                    </i>
+                    </a>
+                    <a href="/Kr/CompanyNews/News.aspx?page=14&amp;searchField=0&amp;searchText=" class="m-btn m-btn--line-gray m-paging m-paging-last">
+                    <i class="m-icon m-icon__arrow-paging__double right">
+                    </i>
+                    </a>
+                </div>
+            </acticle>
+        </div>
+    </main>
+
+    <footer class="footer"></footer>
+
+</body>
+<script>
+    $("body").addClass('business-information');
+</script>
+
+</html>
