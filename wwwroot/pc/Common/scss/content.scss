@@ -3821,16 +3821,18 @@ html * {
 		/* line 100, src/common/scss/package/04-c-header.scss */
 		.c-header__menu-list:hover:before {
 				opacity: 1;
-				min-height: 354px;
+				min-height: 340px;
 				transition: opacity 0.3s linear 0.2s,
  				min-height 0.3s linear 0.2s;
+		}
+		[lang="en"] .c-header__menu-list:hover:before {
+			min-height: 370px;
 		}
 		/* line 106, src/common/scss/package/04-c-header.scss */
 		.c-header__menu-list:hover .c-header__menu-sub-list {
 				opacity: 1;
 				transform: translateY(0);
-				transition: transform 0s linear 0.5s,
- opacity 0.3s linear 0.4s;
+				transition: transform 0s linear 0.5s, opacity 0.3s linear 0.4s;
 				z-index: 3;
 				max-height: 290px;
 				min-height: 290px;
@@ -3860,6 +3862,7 @@ html * {
 				display: block;
 				height: auto;
 				text-align: left;
+				width: 100%;
 		}
 }
 
@@ -3967,7 +3970,7 @@ html * {
 				opacity: 1;
 				z-index: 1;
 				overflow: hidden;
-				max-height: 390px;
+				max-height: 410px;
 				transition: max-height 0.3s linear 0s;
 				padding: 15px 20px 15px;
 				border-bottom: 1px solid #ddd;
@@ -4773,9 +4776,11 @@ html * {
 @media (min-width: 640px) and (max-width: 1460px) {
 		/* line 783, src/common/scss/package/04-c-header.scss */
 		[lang="en"] .c-header__menu-list:hover:before {
-				min-height: 330px;
+				min-height: 430px;
 		}
 }
+
+
 
 /* line 787, src/common/scss/package/04-c-header.scss */
 [lang="en"] .c-header__menu-list__item {
