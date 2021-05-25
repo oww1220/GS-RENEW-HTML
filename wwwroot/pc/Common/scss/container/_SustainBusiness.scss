@@ -249,6 +249,25 @@
     }
 
     .social-contribution {
+        .company-support__list-cnt {
+            margin-bottom:0;
+        }
+        .content-box {
+            margin-bottom: 150px;
+        }
+        .l-content {
+            padding-bottom:0;
+        }
+        .slick-dots {
+            left: 0;
+            right: 0;
+            text-align: center;
+            bottom: 15px;
+            li {
+                float: none;
+                display: inline-block;
+            }
+        }
         .m-title__list.m-title__sub-title {
             margin-top:0;
         }
@@ -273,9 +292,20 @@
             
         }
         @include mob-large {
+            .content-box {
+                margin-bottom: 50px;
+            }
             .thumb__list-item__cell-cnt__wrap-tit {
                 margin-top:20px;
                 margin-bottom: 15px;
+            }
+            .slick-slide {
+				overflow: hidden;
+                img {
+                    width: 150% !important;
+                    margin-left: -25%;
+                    margin-right: -25%;
+                }
             }
         }
     }
